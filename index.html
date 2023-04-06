@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="status" id="status"></h1>
+
+    <div class="gnrtr-box">
+        <input type="text" readonly id="generator" class="generator">
+    </div>
+
+    <div class="your-choice">
+        <input type="text" class="client-text" id="client-text" placeholder="Enter the captcha!">
+    </div>
+
+    <button class="submit" type="submit" id="submit">Submit</button>
+    <button class="refresh" type="button" id="refresh">Refresh</button>
+    <script src="./main.js"></script>
+</body>
+</html>
